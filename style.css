@@ -1,0 +1,78 @@
+h1 {
+    color: magenta;
+}
+
+.header {
+    justify-content: center;
+    display: flex;
+    background-color:violet;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: indigo;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: 400;
+    color: white;
+}
+
+body {
+    background-color: blue;
+}
+
+.grid img {
+    border: 2px solid green;
+    border-radius: 50px;
+    background-color: rgb(0, 255, 221);
+}
+
+.origami {
+    border-radius: 20px;
+    background-color: yellow;
+    width: 310px;
+    font-family: Brush Script MT;
+    font-size: x-large;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: rgba(255,0,0,.5);
+    background-color: orange;
+}
+
+.bodyimg h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: xx-large;
+    font-family: Brush Script MT;
+    width: 1000px;
+    color:white;
+    height: 280px;
+}
+
+.bodyimg p{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    font-size: 25px;
+    font-family: cursive;
+    color: rgb(0, 247, 255);
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+.origami:hover {
+    transform: scale(1.2);
+}
